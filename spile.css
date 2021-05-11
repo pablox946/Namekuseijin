@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.bd{
+
+    background-image: url("../pintudo/narutin.jpg");
+
+}
+.tela{
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    padding: 2%;
+    border-radius: 5%;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
+
+.botao{
+    background-color: #3FCE2A;
+    border: none;
+    padding: 15px;
+    width: 15%;
+    border-radius: 10px;
+    margin-top: 29%;
+    margin-left:45% ;
+    transition:0.20s ;
+
+}
+
+.botao:hover{
+    background-color: #8ef77e;
+    color: rgb(0, 0, 0);
+}
